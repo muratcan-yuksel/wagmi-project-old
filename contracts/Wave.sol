@@ -2,10 +2,12 @@
 pragma solidity ^0.8.0;
 
 contract waveMe {
-    string public name;
+    string public name = "Patrick";
+    
 
 
      function setName(string memory _name) external {
+
         name = _name;
 
     }

@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nomiclabs/hardhat-ethers", "virtual:b55538d965cdfb4ec85c4bfb56ba1ecf2eb31aa195579e23dbf7c96a6ae3299df3079a07c5ff110a77e4dc177fc38a62018ab741df53162822af695171cc8b72#npm:2.0.6"],\
             ["@nomiclabs/hardhat-waffle", "virtual:b55538d965cdfb4ec85c4bfb56ba1ecf2eb31aa195579e23dbf7c96a6ae3299df3079a07c5ff110a77e4dc177fc38a62018ab741df53162822af695171cc8b72#npm:2.0.3"],\
             ["chai", "npm:4.3.6"],\
+            ["dotenv", "npm:16.0.1"],\
             ["ethereum-waffle", "npm:3.4.4"],\
             ["ethers", "npm:5.6.9"]\
           ],\
@@ -3354,6 +3355,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/dom-walk-npm-0.1.2-7d20a1a8d8-19eb0ce9c6.zip/node_modules/dom-walk/",\
           "packageDependencies": [\
             ["dom-walk", "npm:0.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["dotenv", [\
+        ["npm:16.0.1", {\
+          "packageLocation": "./.yarn/cache/dotenv-npm-16.0.1-d99e72bb95-f459ffce07.zip/node_modules/dotenv/",\
+          "packageDependencies": [\
+            ["dotenv", "npm:16.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -9690,6 +9700,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nomiclabs/hardhat-ethers", "virtual:b55538d965cdfb4ec85c4bfb56ba1ecf2eb31aa195579e23dbf7c96a6ae3299df3079a07c5ff110a77e4dc177fc38a62018ab741df53162822af695171cc8b72#npm:2.0.6"],\
             ["@nomiclabs/hardhat-waffle", "virtual:b55538d965cdfb4ec85c4bfb56ba1ecf2eb31aa195579e23dbf7c96a6ae3299df3079a07c5ff110a77e4dc177fc38a62018ab741df53162822af695171cc8b72#npm:2.0.3"],\
             ["chai", "npm:4.3.6"],\
+            ["dotenv", "npm:16.0.1"],\
             ["ethereum-waffle", "npm:3.4.4"],\
             ["ethers", "npm:5.6.9"]\
           ],\
